@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "a943c370-de84-41cd-9d50-64c1f61fedae",
+		"name": "DemoBook",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39049860",
+		"_collection_link": "https://postmandemo-5332.postman.co/workspace/71a646f2-90ed-4392-bcde-462aee655f0b/collection/39049860-a943c370-de84-41cd-9d50-64c1f61fedae?action=share&source=collection_link&creator=39049860"
+	},
+	"item": [
+		{
+			"name": "get all posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get a single post",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/{{PostID}}",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"{{PostID}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
